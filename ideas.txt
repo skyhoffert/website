@@ -1,0 +1,67 @@
+This file contains ideas for my website.
+
+The goal is to balance simplicity, creativity, and effectively providing information.
+
+Idea #1
+	One page website. Scrolling down will take you through each of the planets, each containing a different section with information about me.
+	Each planet will also have a fun fact so people can learn about the planets! Sort of fix two bugs with one line of code.
+	Graphics should be cartoony ish, with an animated version of me and a spaceship and unique features of each planet
+
+Mercury: Welcome! Site information
+	Planet: small, gray
+	Sky: in rocket above surface, looking at a magnetic storm
+	Fun Fact: Mercury has magnetic tornadoes
+	Notes: 
+
+Venus: Who am I? What do I care about?
+	Planet: cloudy, hot, yellow-ish
+	Sky: flying above clouds in spaceship
+	Fun Fact: Temperatures on the surface are hot enough to melt Lead (because of a runaway greenhouse effect)
+	Notes: What I care about should be not letting planet Earth's greenhouse effect get out of hand like here
+
+Earth: About Me
+	Planet: earth like
+	Sky: standing on surface smiling
+	Fun Fact: Earth, moon, and Sun alternate names
+	Notes: Throw in a Pale Blue Dot reference :)
+
+Mars: Future Goals
+	Planet: orangish red
+	Sky: standing on surface next to Curiosity
+	Fun Fact: Mars has polar ice caps, like Earth
+	Notes: I hope to help company put spacecraft/humans here
+
+Small Band for Asteroid Belt:
+	Fun Fact: Asteroids are VERY far apart, unlike in typical space movies
+	Notes: size of asteroids
+
+Jupiter: Experience
+	Planet: typical jupiter, large
+	Sky: 
+	Fun Fact: Ganymede and Europa are thought to have subsurface liquid water oceans!
+	Notes: Exploring the moons of Jupiter is my main goal for space exploration
+
+Saturn: Projects
+	Planet: typical Saturn, large and beautiful rings
+	Sky: EVA near rings
+	Fun Fact: Titan is the only moon with a dense atmosphere
+	Notes: 
+
+Uranus: Volunteer Work
+	Planet: lovely light blue teal-ish color
+	Sky: Flying in spaceship
+	Fun Fact: Uranus's rotation is tilted nearly 90 degrees. Its "North Pole" would be where Earth's equator is
+	Notes: Show Uranus's rings
+
+Neptune: Skills
+	Planet: deep beautiful blue
+	Sky: Flying in spaceship
+	Fun Fact: Neptune has the strongest winds at up to 1,300 mph (2,100 kmph or 580 m/s)
+	Notes: Triton orbits opposite Neptune's rotation
+
+Pluto: Contact Me
+	Planet: pluto colors, with dark "heart"
+	Sky: cold, standing on surface
+	Fun Fact: Pluto's surface appears to be recently geologically active, perhaps even still active today!
+	Notes: maybe have New Horizons flying by?
+
