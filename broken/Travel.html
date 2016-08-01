@@ -6,15 +6,16 @@
 	<link href="styles.css" rel="stylesheet" />
 	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 </head>
 
 <body id="body" style="background-color: #000000" >
-<div id="content" role="main" >
+<div id="container-fluid" role="main" >
 
 	<header class="siteHeader" style="position: fixed" >
 		<nav class="navbar navbar-default" >
 			<div class="container-fluid">
+			
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only"></span>
@@ -29,16 +30,8 @@
 				
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="AboutMe.html">About Me<span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="Travel.html">Travel<span class="sr-only">(current)</span></a></li>
 						<!-- add more links here -->
-						
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Travel<span class="caret"></span></a>
-							<ul class="dropdown-menu" >
-								<li><a href="Travel_Raystown.html" >Raystown Lake</a></li>
-								<li><a href="Travel_Germany.html" >Germany</a></li>
-								<li><a href="Travel_Iceland.html" >Iceland</a></li>
-							</ul>
-						<li>
 						
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Pages<span class="caret"></span></a>
@@ -48,7 +41,6 @@
 								<li><a href="https://drive.google.com/open?id=1nIdI2OEHvrE9iWrlqjvC6KMODIfsx5tAixY2oEcptqc" target="_blank" >Resume</a></li>
 							</ul>
 						<li>
-						
 					</ul>
 					
 				</div>
@@ -57,27 +49,45 @@
 		
 	</header>
 	
-
-	<div class="w3-row-padding" >
-		<div class="w3-container" style="color:#DDDDDD" >
-			<center>
-				<h1>-</h1>
-				<h1>-</h1>
-				<h5>-</h5>
-				<h1>Template</h1>
-				<br><hr><br>
-			</center>
+	<div class="container" style="padding-top: 96px" >
+		
+		<div class="container text-center" >
+			<div class="btn-group btn-group-lg" role="group" data-toggle="buttons" style="color:#DDDDDD" >
+				<label class="btn btn-primary active" >
+					<input type="radio" name="options" id="option1" autocomplete="off" checked>Raystown Lake</input>
+				</label>
+				<label class="btn btn-primary" onclick="document.getElementById('germany-text')='bye world'" >
+					<input type="radio" name="options" id="option1" autocomplete="off" >Germany</input>
+				</label>
+				<label class="btn btn-primary" >
+					<input type="radio" name="options" id="option2" autocomplete="off">Iceland</input>
+				</label>
+			</div>
 		</div>
+		
+		<p id="germany-text" >hello world</p>
+		
+	</div>
 	
-	<div class="footer" style="background-color:#222222; color:#DDDDDD;" >
+	<footer class="navbar navbar-bottom" style="background-color:#222222; color:#DDDDDD;" >
 		<div class="container-fluid">
 		<center>
 			<strong><br>&copy; 2016 Skylar Hoffert<br>&nbsp;</strong>
 			</center>
 		</div>
-	</div>
-				
+	</footer>
+	
 </div>
+
+<script>
+function testFunction(){
+	alert("working");
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

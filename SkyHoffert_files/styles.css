@@ -1,20 +1,7 @@
 .siteHeader{
     width: 100%;
     height: 128px;
-    overflow: hidden;
 	z-index: 2;
-}
-
-.siteHeader .siteLogo{
-	margin-top: -640px;
-	margin-left: -256px;
-}
-
-.siteHeader .siteHeaderOverlay{
-	position: absolute;
-	top: 64px;
-	left: 0; 
-	width: 100%; 
 }
 
 .siteNavBar{
@@ -24,7 +11,15 @@
    width: 100%;
 }
 
-footer{
+.siteCenterDiv{
+	margin: 0 auto;
+	float: none;
+}
+
+.footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
 	margin-top: 128px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -33,14 +28,19 @@ footer{
 	border-color: transparent;
 }
 
-body{
+html, body{
 	z-index: 1;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	height: 100%;
 }
 
 p{
 	display: inline;
+}
+
+*{
+	margin: 0;
 }
