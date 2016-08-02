@@ -11,6 +11,21 @@
    width: 100%;
 }
 
+.siteSection{
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+	transform: translateY(-5%);
+}
+
+.siteImage{
+	max-width: 90%;
+	min-width: 396px;
+	height: auto;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
 .siteCenterDiv{
 	margin: 0 auto;
 	float: none;
@@ -39,6 +54,11 @@ html, body{
 
 p{
 	display: inline;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1{
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 *{
