@@ -54,13 +54,9 @@ html, body{
 
 p{
 	display: inline;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-
-h1{
-	font-family: Tahoma, Geneva, sans-serif;
 }
 
 *{
 	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
 }
