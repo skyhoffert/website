@@ -65,3 +65,23 @@ Pluto: Contact Me
 	Fun Fact: Pluto's surface appears to be recently geologically active, perhaps even still active today!
 	Notes: maybe have New Horizons flying by?
 
+
+NOTES:
+
+For switching the order of stuff, bootstrap columns work GREAT! Here is some sample code for that:
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-md-6 col-md-push-6">
+					IMAGE
+				</div>
+				<div class="col-xs-12 col-md-6 col-md-pull-6">
+					TEXT
+				</div>
+			</div>
+		</div>
+
+
+
+
+
