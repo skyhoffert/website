@@ -62,4 +62,5 @@ p{
 	margin: 0 auto;
 	font-family: Tahoma, Geneva, sans-serif;
 	color: #DDDDDD;
+	z-index: 2;
 }
