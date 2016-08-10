@@ -1,0 +1,14 @@
+Fixes that need to happen:
+
+ - add little character to each planet
+
+ - "unlike many what many" in asteroid belt
+
+ - size of jupiter pages
+
+ - make sure each page ends in .
+ - > jupiter and saturn facts are missing, maybe more
+
+ - extra bullet in Uranus page
+
+ - Pluto fact worded oddly
