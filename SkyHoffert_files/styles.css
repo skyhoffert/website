@@ -5,11 +5,6 @@
 	transform: translateY(-5%);
 }
 
-.siteImage{
-	max-width: 100%;
-	height: auto;
-}
-
 .sitePage{
 	max-width: 110%;
 	min-width: 200px;
